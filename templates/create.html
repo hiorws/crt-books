@@ -2,7 +2,7 @@
 
 <p>Please enter your new book details.</p>
 
-<form action="" method="POST">
+<form action="{{ url_for('create_book') }}" method="POST">
     <label for="book_name">Book Name:</label><br>
     <input type="text" id="book_name" name="book_name"><br>
     <label for="author_name">Author Name:</label><br>

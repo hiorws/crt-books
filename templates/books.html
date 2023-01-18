@@ -12,9 +12,9 @@
 
     {% for book in all_books %}
     <tr>
-        <td>{{ book[0] }}</td>
-        <td>{{ book[1] }}</td>
-        <td>{{ book[2] }}</td>
+        <td>{{ book.id }}</td>
+        <td>{{ book.book_name }}</td>
+        <td>{{ book.author_name }}</td>
     </tr>
     {% endfor %}
 </table>
